@@ -1,0 +1,37 @@
+<svg width="487px" height="158px"
+ viewBox="0.00 0.00 486.80 157.80" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0) translate(14.4 143.4)">
+<title>com.dorokhov.testingdagger.di.component.ApplicationComponent → com.dorokhov.repo.di.components.RepoComponent → com.dorokhov.datasource.di.components.DataSourceComponent</title>
+<polygon fill="white" stroke="none" points="-14.4,14.4 -14.4,-143.4 472.4,-143.4 472.4,14.4 -14.4,14.4"/>
+<text text-anchor="middle" x="209" y="-7.8" font-family="Times New Roman,serif" font-size="14.00">ApplicationComponent → RepoComponent → DataSourceComponent</text>
+<g id="clust1" class="cluster"><title>cluster_Entry Points</title>
+<polygon fill="none" stroke="black" points="8,-31 8,-106 208,-106 208,-31 8,-31"/>
+<text text-anchor="middle" x="51" y="-90.8" font-family="Times New Roman,serif" font-size="14.00">Entry Points</text>
+</g>
+<g id="clust4" class="cluster"><title>cluster_ApplicationComponent</title>
+<g id="a_clust4"><a xlink:href="com.dorokhov.testingdagger.di.component.ApplicationComponent.svg" xlink:title="Inherited from ApplicationComponent\n@Singleton">
+<polygon fill="none" stroke="aquamarine" stroke-dasharray="5,2" points="228,-31 228,-121 458,-121 458,-31 228,-31"/>
+<text text-anchor="middle" x="343" y="-105.8" font-family="Times New Roman,serif" font-size="14.00">Inherited from ApplicationComponent</text>
+<text text-anchor="middle" x="343" y="-90.8" font-family="Times New Roman,serif" font-size="14.00">@Singleton</text>
+</a>
+</g>
+</g>
+<!-- 70e56f2b&#45;1942&#45;4444&#45;917d&#45;c942923d5ec9 -->
+<g id="node1" class="node"><title>70e56f2b&#45;1942&#45;4444&#45;917d&#45;c942923d5ec9</title>
+<polygon fill="turquoise" stroke="turquoise" stroke-width="2" points="200,-75 16,-75 16,-71 12,-71 12,-67 16,-67 16,-47 12,-47 12,-43 16,-43 16,-39 200,-39 200,-75"/>
+<polyline fill="none" stroke="turquoise" stroke-width="2" points="16,-71 20,-71 20,-67 16,-67 "/>
+<polyline fill="none" stroke="turquoise" stroke-width="2" points="16,-47 20,-47 20,-43 16,-43 "/>
+<text text-anchor="middle" x="108" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">inject (BestConnectionFinder)</text>
+</g>
+<!-- e25541bc&#45;d46d&#45;4e46&#45;8b56&#45;5af2e93bd801 -->
+<g id="node2" class="node"><title>e25541bc&#45;d46d&#45;4e46&#45;8b56&#45;5af2e93bd801</title>
+<polygon fill="turquoise" stroke="turquoise" points="403,-75 282,-75 282,-39 403,-39 403,-75"/>
+<text text-anchor="middle" x="342.5" y="-53.3" font-family="Times New Roman,serif" font-size="14.00">SimpleDateFormat</text>
+</g>
+<!-- 70e56f2b&#45;1942&#45;4444&#45;917d&#45;c942923d5ec9&#45;&gt;e25541bc&#45;d46d&#45;4e46&#45;8b56&#45;5af2e93bd801 -->
+<g id="edge1" class="edge"><title>70e56f2b&#45;1942&#45;4444&#45;917d&#45;c942923d5ec9&#45;&gt;e25541bc&#45;d46d&#45;4e46&#45;8b56&#45;5af2e93bd801</title>
+<path fill="none" stroke="black" d="M200.223,-57C224.053,-57 249.355,-57 271.864,-57"/>
+<polygon fill="black" stroke="black" points="271.993,-60.5001 281.993,-57 271.993,-53.5001 271.993,-60.5001"/>
+</g>
+</g>
+</svg>
