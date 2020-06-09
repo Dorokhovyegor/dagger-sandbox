@@ -21,7 +21,7 @@ import javax.inject.Singleton
 )
 interface ApplicationComponent {
 
-    fun plusRepositoryComponent(repoModule: RepoModule): RepoComponent
+    fun child(repoModule: RepoModule): RepoComponent
 
     @Component.Builder
     interface Builder {

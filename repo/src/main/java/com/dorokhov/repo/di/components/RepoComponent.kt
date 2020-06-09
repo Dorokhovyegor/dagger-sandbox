@@ -13,5 +13,5 @@ import dagger.Subcomponent
     ]
 )
 interface RepoComponent {
-    fun plusDataSourceComponent(dataSourceModule: DataSourceModule): DataSourceComponent
+    fun child(dataSourceModule: DataSourceModule): DataSourceComponent
 }
