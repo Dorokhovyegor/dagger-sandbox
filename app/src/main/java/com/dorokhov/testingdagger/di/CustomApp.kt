@@ -23,11 +23,11 @@ class CustomApp: Application(),  ApplicationComponentProvider, RepoComponentProv
     }
 
     override fun getRepoComponent(): RepoComponent {
-        return appComponent.plusRepositoryComponent(RepoModule())
+        return appComponent.child(RepoModule())
     }
 
     override fun getDataSourceComponent(): DataSourceComponent {
-        return appComponent.plusRepositoryComponent(RepoModule()).plusDataSourceComponent(
+        return appComponent.child(RepoModule()).child(
             DataSourceModule()
         )
     }
