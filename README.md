@@ -3,6 +3,19 @@
 
 Полученный граф: 
 
+@Singleton 
+@Component 
+interface ApplicationComponent {
+} 
+
+@Subcomponent
+interface RepoComponent {
+}
+
+@Subcomponent
+interface DataSourceComponent {
+}
+
 # ApplicationComponent
 <img src="https://raw.githubusercontent.com/Dorokhovyegor/dagger-sandbox/3d180740273f7f10e292df8c5b10ddf70a50581a/com.dorokhov.testingdagger.di.component.ApplicationComponent.svg">
 
