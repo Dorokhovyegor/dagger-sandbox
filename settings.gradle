@@ -1,0 +1,4 @@
+rootProject.name='testingdagger'
+include ':app'
+include ':datasource'
+include ':repo'
