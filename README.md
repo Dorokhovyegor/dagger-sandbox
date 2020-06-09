@@ -1,6 +1,12 @@
 # dagger-sandbox
-В этом проекте использую Dagger 2 в многомодульном проекте.
+В этом проекте использую Dagger 2 в многомодульном проекте
 
 Полученный граф
+# ApplicationComponent
 <img src="https://raw.githubusercontent.com/Dorokhovyegor/dagger-sandbox/3d180740273f7f10e292df8c5b10ddf70a50581a/com.dorokhov.testingdagger.di.component.ApplicationComponent.svg">
-
+______________________________________________________________________________________________________
+# RepoComponent
+<img src="https://raw.githubusercontent.com/Dorokhovyegor/dagger-sandbox/3d180740273f7f10e292df8c5b10ddf70a50581a/com.dorokhov.testingdagger.di.component.ApplicationComponent.svg">
+______________________________________________________________________________________________________
+# DataSourceComponent
+<img src="https://raw.githubusercontent.com/Dorokhovyegor/dagger-sandbox/3d180740273f7f10e292df8c5b10ddf70a50581a/com.dorokhov.testingdagger.di.component.ApplicationComponent.svg">
